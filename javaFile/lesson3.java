@@ -4,13 +4,16 @@
  * 変数名は基本pythonと同じルール
  */
 
-class lll
+class sample2
  {
     public static void main(String[] args) 
     {
         int num;
+
         num = 3;
+
         System.out.println("変数numの値は" + num + "です");
         
     }
  }
+
