@@ -13,11 +13,16 @@ public class con_ope {
         String str = br.readLine();
         char res = str.charAt(0);
 
-        if(res == 'Y' || res == 'y'){
-            System.out.println("yes you are gentle right?");
-        }
-        else if(res == 'N' || res == 'n'){
-            System.out.println("yes you are redies right?");
+        // if(res == 'Y' || res == 'y'){
+        //     System.out.println("yes you are gentle right?");
+        // }
+        // else if(res == 'N' || res == 'n'){
+        //     System.out.println("yes you are redies right?");
+
+        char ans = (res == 'Y')?'A':'B';
+        //resの条件を記述して、そのtrue falseに応じてA,Bをansに代入する
+
+        System.out.println(ans + "コースです");
 
 
         

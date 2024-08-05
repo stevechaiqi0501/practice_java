@@ -14,6 +14,10 @@ public class sample6 {
     
             String str = br.readLine();
             char res = str.charAt(0);
+            /*文字列のインデックスから何番目のインデックスを取得するかを記述？？
+             * pythonでいうところの
+             * list[0]
+             */
 
             switch (res) {
                 case 'a':
