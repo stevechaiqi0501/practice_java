@@ -29,7 +29,6 @@ public class con_ope {
         }
 
     }
-}
 /*
  * || is or
  * && is and

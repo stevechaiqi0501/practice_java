@@ -23,7 +23,7 @@ public class addhomework2
 
         else if(1<dou_age && dou_age<=5)
         {
-            System.out.println("人間でいう"+ String.format("%.1f",(20+dou_age*6+15)) +"歳です");
+            System.out.println("人間でいう"+ String.format("%.1f",(dou_age*6+15)) +"歳です");
         }
         else if(5<dou_age && dou_age<=10)
         {
